@@ -49,14 +49,14 @@ ul {
   margin-top: 2vw;
 }
 
-ul li:nth-child(even) {
-  background-color: #b8b8b8;
-}
-
 li {
   padding: 0.5rem 0.7rem;
   font-size: 1.5vw;
   font-weight: bold;
+}
+
+ul li:nth-child(even) {
+  background-color: #b8b8b8;
 }
 
 .form-title {
@@ -83,6 +83,3 @@ form {
   align-self: flex-end;
   margin-right: 4px;
 }
-
-
-
