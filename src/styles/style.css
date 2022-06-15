@@ -1,0 +1,85 @@
+.main-cont {
+  width: 80%;
+  margin: 5vw auto 0 auto;
+}
+
+h1 {
+  font-size: 6vw;
+  font-weight: bold;
+  margin-bottom: 5vw;
+}
+
+.sect-cont {
+  display: flex;
+  gap: 20%;
+}
+
+.score-cont {
+  width: 50%;
+}
+
+.refresh-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 4px;
+}
+
+h2 {
+  font-size: 3.5vw;
+  font-weight: bold;
+  padding-bottom: 0.7rem;
+}
+
+.btn {
+  box-shadow: 4px 5px #000;
+  border: 2px solid #000;
+  font-size: 1.5vw;
+  padding: 0.2rem 0.8rem;
+  box-sizing: border-box;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+ul {
+  border: 3px solid #000;
+  border-radius: 3px;
+  margin-top: 2vw;
+}
+
+li {
+  padding: 0.5rem 0.7rem;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+ul li:nth-child(even) {
+  background-color: #b8b8b8;
+}
+
+.form-title {
+  text-align: center;
+}
+
+form {
+  margin-top: 2vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2.3vw;
+}
+
+.input-data {
+  border: 3px solid #000;
+  outline: none;
+  padding: 0.5rem 0.7rem;
+  font-size: 1.5vw;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.sub-btn {
+  align-self: flex-end;
+  margin-right: 4px;
+}
