@@ -1,14 +1,15 @@
-import _ from 'lodash';
-import './style.css';
+import './styles/reset.css';
+import './styles/style.css';
+import displayPlayer from './modules/display.js';
 
-function component() {
-  const element = document.createElement('div');
+const players = [
+  {name: 'Tom', score: 100},
+  {name: 'Andrés', score: 20},
+  {name: 'David', score: 50},
+  {name: 'Dino', score: 78},
+  {name: 'Daril', score: 125},
+  {name: 'Jesús', score: 77},
+  {name: 'Alfred', score: 42}
+];
 
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(['Hello', 'Jesús'], ' ');
-  element.classList.add('hello');
-
-  return element;
-}
-
-document.body.appendChild(component());
+players.forEach(player => displayPlayer(player));
