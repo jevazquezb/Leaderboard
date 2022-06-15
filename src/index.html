@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leaderboard</title>
+    <link rel="stylesheet" href="./styles/reset.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="./styles/style.css" type="text/css" media="all"/> 
   </head>
   <body>
-    <h1>Hello Leaderboard!</h1>
+    <div class="main-cont">
+      <h1>Leaderboard</h1>
+      <div class="sect-cont">
+        <section class="score-cont">
+          <div class="refresh-cont">
+            <h2>Recent scores</h2>
+            <button class="btn" type="button">Refresh</button>
+          </div>
+          <ul>
+            <li>Tom: 100</li>
+            <li>Andrés: 20</li>
+            <li>David: 50</li>
+            <li>Dino: 78</li>
+            <li>Darik: 125</li>
+            <li>Jesús: 77</li>
+            <li>Alfred: 42</li>
+          </ul>
+        </section>
+        <section class="form-cont">
+          <h2 class="form-title">Add your score</h2>
+          <form action="">
+            <input class="input-data" type="text" placeholder="Your name" required>
+            <input class="input-data" type="number" placeholder="Your score" required>
+            <input class="btn sub-btn" type="submit" value="Submit" title="Click this or press enter to submit">            
+          </form>
+        </section>
+      </div>      
+    </div>
   </body>
 </html>
