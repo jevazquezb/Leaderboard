@@ -1,12 +1,12 @@
 .main-cont {
   width: 80%;
-  margin: 5rem auto 0 auto;
+  margin: 5vw auto 0 auto;
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 6vw;
   font-weight: bold;
-  margin-bottom: 5rem;
+  margin-bottom: 5vw;
 }
 
 .sect-cont {
@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 3.5vw;
   font-weight: bold;
   padding-bottom: 0.7rem;
 }
@@ -34,7 +34,7 @@ h2 {
 .btn {
   box-shadow: 4px 5px #000;
   border: 2px solid #000;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   padding: 0.2rem 0.8rem;
   box-sizing: border-box;
 }
@@ -46,7 +46,7 @@ h2 {
 ul {
   border: 3px solid #000;
   border-radius: 3px;
-  margin-top: 2rem;
+  margin-top: 2vw;
 }
 
 ul li:nth-child(even) {
@@ -55,7 +55,7 @@ ul li:nth-child(even) {
 
 li {
   padding: 0.5rem 0.7rem;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   font-weight: bold;
 }
 
@@ -64,17 +64,17 @@ li {
 }
 
 form {
-  margin-top: 2rem;
+  margin-top: 2vw;
   display: flex;
   flex-direction: column;
-  gap: 2.3rem;
+  gap: 2.3vw;
 }
 
 .input-data {
   border: 3px solid #000;
   outline: none;
   padding: 0.5rem 0.7rem;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   border-radius: 3px;
   box-sizing: border-box;
 }
