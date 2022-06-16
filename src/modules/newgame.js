@@ -12,5 +12,5 @@ export default async function newGame(gameName, url) {
   });
 
   const output = await response.json();
-  console.log(output);
+  return output.result;
 }

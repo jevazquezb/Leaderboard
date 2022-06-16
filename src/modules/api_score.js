@@ -13,7 +13,7 @@ async function sendScore(user, score, url) {
     },
   });
 
-  const output = await response.json();  
+  const output = await response.json();
   return output.result;
 }
 
@@ -26,4 +26,3 @@ async function retrieveScore(url) {
 }
 
 export { sendScore, retrieveScore };
-

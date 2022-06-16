@@ -7,7 +7,7 @@ export default function refresh(url) {
   removeAllChildElements(uList);
 
   const data = retrieveScore(url);
-  data.then(players => {
+  data.then((players) => {
     players.forEach((player) => displayPlayer(player));
   });
 }
