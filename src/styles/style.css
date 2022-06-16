@@ -1,6 +1,10 @@
 .main-cont {
   width: 80%;
-  margin: 5vw auto 0 auto;
+  margin: 5vw auto;
+}
+
+.font-size {
+  font-size: 1.5vw;
 }
 
 h1 {
@@ -34,7 +38,6 @@ h2 {
 .btn {
   box-shadow: 4px 5px #000;
   border: 2px solid #000;
-  font-size: 1.5vw;
   padding: 0.2rem 0.8rem;
   box-sizing: border-box;
 }
@@ -51,7 +54,6 @@ ul {
 
 li {
   padding: 0.5rem 0.7rem;
-  font-size: 1.5vw;
   font-weight: bold;
 }
 
@@ -74,7 +76,6 @@ form {
   border: 3px solid #000;
   outline: none;
   padding: 0.5rem 0.7rem;
-  font-size: 1.5vw;
   border-radius: 3px;
   box-sizing: border-box;
 }
@@ -82,4 +83,5 @@ form {
 .sub-btn {
   align-self: flex-end;
   margin-right: 4px;
+  margin-bottom: 1rem;
 }
