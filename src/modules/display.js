@@ -1,4 +1,4 @@
-export default function displayPlayer(player) {
+const displayPlayer = (player) => {
   const uList = document.querySelector('ul');
 
   const playerCont = document.createElement('li');
@@ -7,3 +7,5 @@ export default function displayPlayer(player) {
 
   uList.appendChild(playerCont);
 }
+
+export { displayPlayer as default };

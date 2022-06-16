@@ -1,4 +1,4 @@
-export default async function newGame(gameName, url) {
+const newGame = async (gameName, url) => {
   const requestURL = url;
   const request = new Request(requestURL);
   const data = { name: gameName };
@@ -14,3 +14,5 @@ export default async function newGame(gameName, url) {
   const output = await response.json();
   return output.result;
 }
+
+export { newGame as default };

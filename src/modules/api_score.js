@@ -1,6 +1,6 @@
 import Body from './body_class.js';
 
-async function sendScore(user, score, url) {
+const sendScore = async (user, score, url) => {
   const requestURL = url;
   const request = new Request(requestURL);
   const data = new Body(user, score);
@@ -17,7 +17,7 @@ async function sendScore(user, score, url) {
   return output.result;
 }
 
-async function retrieveScore(url) {
+const retrieveScore = async (url) => {
   const requestURL = url;
   const request = new Request(requestURL);
   const response = await fetch(request);
