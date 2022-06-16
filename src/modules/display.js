@@ -6,6 +6,6 @@ const displayPlayer = (player) => {
   playerCont.textContent = `${player.user}: ${player.score}`;
 
   uList.appendChild(playerCont);
-}
+};
 
 export { displayPlayer as default };

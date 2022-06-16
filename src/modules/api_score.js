@@ -15,7 +15,7 @@ const sendScore = async (user, score, url) => {
 
   const output = await response.json();
   return output.result;
-}
+};
 
 const retrieveScore = async (url) => {
   const requestURL = url;
@@ -23,6 +23,6 @@ const retrieveScore = async (url) => {
   const response = await fetch(request);
   const output = await response.json();
   return output.result;
-}
+};
 
 export { sendScore, retrieveScore };

@@ -10,6 +10,6 @@ const refresh = (url) => {
   data.then((players) => {
     players.forEach((player) => displayPlayer(player));
   });
-}
+};
 
 export { refresh as default };
