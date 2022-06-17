@@ -1,6 +1,5 @@
 const newGame = async (gameName, url) => {
-  const requestURL = url;
-  const request = new Request(requestURL);
+  const request = new Request(url);
   const data = { name: gameName };
 
   const response = await fetch(request, {

@@ -4,22 +4,21 @@
   "description": "",
   "private": true,
   "scripts": {
-    "test": "jest --coverage",
     "start": "webpack serve --open",
     "build": "webpack",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jevazquezb/To_do_list.git"
+    "url": "git+https://github.com/jevazquezb/Leaderboard.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jevazquezb/To_do_list/issues"
+    "url": "https://github.com/jevazquezb/Leaderboard/issues"
   },
-  "homepage": "https://github.com/jevazquezb/To_do_list#readme",
+  "homepage": "https://github.com/jevazquezb/Leaderboard#readme",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.18.2",
     "babel-eslint": "^10.1.0",
