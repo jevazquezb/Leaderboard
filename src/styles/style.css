@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+  background-color: #f6ebf4;
+  color: #482673;
+  font-family: 'Ubuntu', sans-serif;
+}
+
 .main-cont {
   width: 80%;
   margin: 5vw auto;
@@ -5,6 +13,7 @@
 
 .font-size {
   font-size: 1.5vw;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 h1 {
@@ -26,7 +35,6 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 4px;
 }
 
 h2 {
@@ -36,10 +44,12 @@ h2 {
 }
 
 .btn {
-  box-shadow: 4px 5px #000;
-  border: 2px solid #000;
+  border: none;
   padding: 0.2rem 0.8rem;
   box-sizing: border-box;
+  background-color: #482673;
+  color: #fff;
+  border-radius: 5px;
 }
 
 .btn:hover {
@@ -47,18 +57,19 @@ h2 {
 }
 
 ul {
-  border: 3px solid #000;
-  border-radius: 3px;
+  border: 5px solid #fff;
+  border-radius: 10px;
   margin-top: 2vw;
 }
 
 li {
   padding: 0.5rem 0.7rem;
   font-weight: bold;
+  background-color: #fff;
 }
 
 ul li:nth-child(even) {
-  background-color: #b8b8b8;
+  background-color: #f6ebf4;
 }
 
 .form-title {
@@ -73,15 +84,20 @@ form {
 }
 
 .input-data {
-  border: 3px solid #000;
+  border: 3px solid #fff;
   outline: none;
   padding: 0.5rem 0.7rem;
-  border-radius: 3px;
+  border-radius: 10px;
   box-sizing: border-box;
+  color: #482673;
+}
+
+.input-data::placeholder {
+  color: #482673;
+  opacity: 0.5;
 }
 
 .sub-btn {
   align-self: flex-end;
-  margin-right: 4px;
   margin-bottom: 1rem;
 }
